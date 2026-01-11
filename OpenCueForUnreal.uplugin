@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "OpenCueForUnreal",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "whikqp",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+        "Modules": [
+                {
+                        "Name": "OpenCueForUnrealUtils",
+                        "Type": "Runtime",
+                        "LoadingPhase": "Default"
+                },
+                {
+                        "Name": "OpenCueForUnreal",
+                        "Type": "Runtime",
+                        "LoadingPhase": "Default"
+                },
+                {
+                        "Name": "OpenCueForUnrealCmdline",
+                        "Type": "Runtime",
+                        "LoadingPhase": "Default"
+                },
+                {
+                        "Name": "OpenCueForUnrealEditor",
+                        "Type": "Editor",
+                        "LoadingPhase": "Default"
+                }
+        ]
+}
