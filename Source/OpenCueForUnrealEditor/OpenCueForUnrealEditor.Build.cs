@@ -1,4 +1,5 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright OpenCue for Unreal contributors. MIT License.
+
 using UnrealBuildTool;
 
 public class OpenCueForUnrealEditor : ModuleRules
@@ -28,11 +29,17 @@ public class OpenCueForUnrealEditor : ModuleRules
                 "JsonUtilities",
                 "HTTP",
                 "LevelSequence",
+                "MovieScene",
+                "MovieSceneTracks",
                 "MovieRenderPipelineCore",
                 "MovieRenderPipelineEditor",
                 "MovieRenderPipelineRenderPasses",
                 "MovieRenderPipelineSettings",
                 "EditorSubsystem",
+                "PropertyEditor",
+                "InputCore",
+                "DeveloperSettings",
+                "Projects",
             }
         );
     }
